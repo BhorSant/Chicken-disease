@@ -1,0 +1,1 @@
+from src.Chicken_disease.components.data_ingestion import DataIngestion

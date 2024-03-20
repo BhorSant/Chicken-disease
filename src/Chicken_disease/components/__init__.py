@@ -1,0 +1,1 @@
+from src.Chicken_disease.config import DataIngestionConfig
