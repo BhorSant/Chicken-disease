@@ -3,7 +3,7 @@ from src.Chicken_disease.config.configuration import ConfigurationManager
 from src.Chicken_disease import logger
 
 
-STAGE_NAME = "Prepare base model stage"
+STAGE_NAME = "Prepare base model"
 
 class PrepareBaseModelTrainingPipeline:
     def __init__(self):
@@ -16,10 +16,13 @@ class PrepareBaseModelTrainingPipeline:
         prepare_base_model.get_base_model()
         prepare_base_model.update_base_model()
 
-        logger.info(STAGE_NAME, "Completed")
 
-if __name__ == "__main__":
+
+
+
+if __name__ == '__main__':
     try:
+        logger.info(f"*******************")
         logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<")
         obj = PrepareBaseModelTrainingPipeline()
         obj.main()
