@@ -3,7 +3,7 @@ import urllib.request as request
 from zipfile import ZipFile
 import tensorflow as tf
 import time
-from src.Chicken_disease.entity.config_entity import PrepareCallbacksConfig
+from Chicken_disease.entity.config_entity import PrepareCallbacksConfig
 
 
 class PrepareCallback:

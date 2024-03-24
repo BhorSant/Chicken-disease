@@ -1,8 +1,8 @@
-from src.Chicken_disease.constants import *
+from Chicken_disease.constants import *
 import os
 from pathlib import Path
-from src.Chicken_disease.utils.common import read_yaml, create_directories
-from src.Chicken_disease.entity.config_entity import (DataIngestionConfig, PrepareBaseModelConfig,PrepareCallbacksConfig,TrainingConfig,EvaluationConfig)
+from Chicken_disease.utils.common import read_yaml, create_directories
+from Chicken_disease.entity.config_entity import (DataIngestionConfig, PrepareBaseModelConfig,PrepareCallbacksConfig,TrainingConfig,EvaluationConfig)
 
 class ConfigurationManager:
     def __init__(

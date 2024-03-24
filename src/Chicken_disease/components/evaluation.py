@@ -1,7 +1,7 @@
-from src.Chicken_disease.entity.config_entity import EvaluationConfig
+from Chicken_disease.entity.config_entity import EvaluationConfig
 import tensorflow as tf
 from pathlib import Path
-from src.Chicken_disease.utils.common import read_yaml, create_directories, save_json
+from Chicken_disease.utils.common import read_yaml, create_directories, save_json
 
 
 class Evaluation:

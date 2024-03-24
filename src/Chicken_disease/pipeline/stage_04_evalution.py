@@ -1,6 +1,6 @@
-from src.Chicken_disease.components.evaluation import Evaluation
-from src.Chicken_disease.config.configuration import ConfigurationManager
-from src.Chicken_disease import logger
+from Chicken_disease.components.evaluation import Evaluation
+from Chicken_disease.config.configuration import ConfigurationManager
+from Chicken_disease import logger
 
 
 

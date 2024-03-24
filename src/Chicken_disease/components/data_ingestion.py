@@ -1,9 +1,9 @@
 import os
 import urllib.request as request
 import zipfile
-from src.Chicken_disease import logger
-from src.Chicken_disease.utils.common import get_size
-from src.Chicken_disease.entity.config_entity import DataIngestionConfig
+from Chicken_disease import logger
+from Chicken_disease.utils.common import get_size
+from Chicken_disease.entity.config_entity import DataIngestionConfig
 from pathlib import Path
 
 
